@@ -1,7 +1,7 @@
-FROM alerman/datawave/base-jdk:8
+FROM alerman/datawave-base-jdk:8
 
-LABEL pull="docker pull alerman/datawave/wildfly" \
-      run="docker run -it alerman/datawave/wildfly" \
+LABEL pull="docker pull alerman/datawave-wildfly" \
+      run="docker run -it alerman/datawave-wildfly" \
       description="Wildfly app server image, with DATAWAVE customizations" \
       name="Wildfly App Server Image with DATAWAVE customizations" \
       maintainer="Adam Lerman" \
